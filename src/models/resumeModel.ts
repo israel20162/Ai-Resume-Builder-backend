@@ -1,5 +1,21 @@
 import mongoose, { mongo } from "mongoose";
 
+// export interface IResume extends Document {
+//     user: string;
+//     fullName: string;
+//     summary?: string;
+//     experience?: Array<{
+//         company: string;
+//         role: string;
+//         duration: string;
+//     }>;
+//     education?: Array<{
+//         school: string;
+//         degree: string;
+//         year: string;
+//     }>;
+//     skills?: string[];
+// }
 const ResumeSchema = new mongoose.Schema({
     user: { type: mongoose.Schema.Types.ObjectId, ref: "User"},
     fullName: { type: String, required: true},

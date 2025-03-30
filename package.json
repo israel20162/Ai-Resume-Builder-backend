@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/server.js",
+    "start:dev": "nodemon --watch src --exec ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,12 @@
     "cheerio": "^1.0.0",
     "compromise": "^14.14.4",
     "express": "^4.21.2",
+    "mongoose": "^8.13.1",
     "natural": "^8.0.1",
+    "puppeteer": "^24.4.0",
     "stopword": "^3.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
