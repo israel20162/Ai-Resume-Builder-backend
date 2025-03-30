@@ -13,3 +13,5 @@ git clone https://github.com/your-username/Ai-Resume_Builder.git
 cd Ai-Resume_Builder
 npm install
 npm run dev
+
+Done with authentication
