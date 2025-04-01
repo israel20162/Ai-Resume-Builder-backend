@@ -2,9 +2,9 @@
   "name": "ai-resume-builder",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/server.ts",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.ts",
+    "start": "node src/server.js",
     "start:dev": "nodemon --watch src --exec ts-node src/server.ts"
   },
   "keywords": [],
